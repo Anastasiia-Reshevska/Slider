@@ -1,0 +1,48 @@
+.slider-content {
+    list-style-type: none;
+    border: 1px solid linear-gradient(90deg,rgba(241,90,34,.75) -7.86%,rgba(144,0,144,.75) 105.39%);
+    background: linear-gradient(90deg,rgba(241,90,34,.75) -7.86%,rgba(144,0,144,.75) 105.39%);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, .70);
+    position: relative;
+    padding: 20px;
+}
+
+[data-action="stop"], [data-action="start"] {
+    display: none;
+}
+
+.tns-nav {
+    position: absolute;
+    bottom: 0; 
+    right: 50%;
+    margin-bottom: 10px;
+    transform: translateX(50%);
+}
+
+.tns-nav button {
+    background-color:rgba(241,90,34,.75);
+    border: 1px solid rgba(241,90,34,.75);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: 4px;
+}
+
+.tns-nav button:hover {
+    background-color:rgba(144,0,144,.75);
+    border: 1px solid rgba(144,0,144,.75);
+
+}
+
+.slider-content__np {
+    font-style: italic;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
+
+
+
