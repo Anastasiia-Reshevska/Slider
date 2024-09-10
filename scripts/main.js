@@ -1,22 +1,12 @@
 (function () {
   const slider = tns({
     container: ".my-slider",
-    items: 3,
+    items: 1,
     autoplay: true,
     controls: false,
     responsive: {
-      0: {
-        axis: "horizontal",
-        items: 1,
-      },
 
       640: {
-        axis: "horizontal",
-        items: 2,
-      },
-
-      700: {
-        axis: "horizontal",
         items: 2,
       },
 
